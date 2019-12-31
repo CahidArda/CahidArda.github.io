@@ -1,0 +1,93 @@
+/*set default padding and margin to 0 (from https://internetingishard.com/html-and-css/css-box-model/)*/
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*Center images*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/*Set padding of lists*/
+ul, ol {
+    padding-left: 20px;
+}
+
+/*Set colour of background*/
+body {
+    background-color: #282e31;
+}
+
+/*make .page's background go from top to bottom*/
+html, body, .page {
+    height: 100%; 
+}
+
+header {
+    padding: 20px 0px;
+    text-align: center;
+    color: #dfcdc3;
+    background-color: #719192;
+}
+
+/*contains all data*/
+.page {
+    width: 900px; 
+    margin: auto;
+    font-family: sans-serif;
+    color: #dfcdc3;
+    background-color: #282e31;
+}
+
+.page header {
+    margin: 20px 10px 0px 10px;
+    padding: 10px;
+    background-color: #3c4245;
+    
+    font-size: 30px;
+    font-style: italic;
+    text-align: justify;
+}
+
+.sidebar {
+    margin: 10px;
+    padding: 10px 0px;
+    clear: left;
+    float: left;
+    width: 250px;
+}
+
+.content {
+    margin: 10px;
+    padding: 10px 10px;
+    clear: right;
+    float: right;
+    width: 610px
+}
+
+.sidebar div, .content div{
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #3c4245;
+    text-align: justify;
+}
+
+footer {
+    clear: both;
+    padding: 20px 0px;
+    text-align: center;
+    color: #dfcdc3;
+    background-color: #719192;
+}
+
+/*Change link colour from default blue to general colour*/
+div a, header a {
+    color: #dfcdc3;
+}
+
