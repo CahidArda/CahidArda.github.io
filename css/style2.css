@@ -52,37 +52,12 @@ header a {
     font-size: 15px;
 }
 
-.page header {
-    margin: 20px 10px 0px 10px;
-    padding: 10px;
-    color: black;
-    background-color: #b6def2;
-
-    font-size: 30px;
-    text-align: justify;
-}
-
-.sidebar {
-    margin: 10px;
-    padding: 10px 0px;
-    clear: left;
-    float: left;
-    width: 250px;
-}
-
-.content {
-    margin: 10px;
-    padding: 10px 10px;
-    clear: right;
-    float: right;
-    width: 610px
-}
-
-.sidebar div, .content div{
-    margin-bottom: 20px;
-    padding: 10px;
-    background-color: #b6def2;
-    text-align: justify;
+.page div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #b6def2;
+  text-align: justify;
 }
 
 footer {
