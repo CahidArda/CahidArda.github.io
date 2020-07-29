@@ -1,9 +1,10 @@
 /*set default padding and margin to 0 (from https://internetingishard.com/html-and-css/css-box-model/)*/
-* { 
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+
+    font-family: 'Raleway', sans-serif;
 }
 
 /*Center images*/
@@ -26,7 +27,7 @@ body {
 
 /*make .page's background go from top to bottom*/
 html, body, .page {
-    height: 100%; 
+    height: 100%;
 }
 
 header {
@@ -38,20 +39,21 @@ header {
 
 /*contains all data*/
 .page {
-    width: 900px; 
+    width: 900px;
     margin: auto;
     font-family: sans-serif;
     color: #dfcdc3;
     background-color: #282e31;
+
+    font-size: 15px;
 }
 
 .page header {
     margin: 20px 10px 0px 10px;
     padding: 10px;
     background-color: #3c4245;
-    
+
     font-size: 30px;
-    font-style: italic;
     text-align: justify;
 }
 
@@ -90,4 +92,3 @@ footer {
 div a, header a {
     color: #dfcdc3;
 }
-
